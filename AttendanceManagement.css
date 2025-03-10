@@ -1,0 +1,111 @@
+.attendance-container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #A8DADC;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: relative;
+}
+
+.back-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+.attendance-summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  padding: 20px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card.on-leave {
+  background-color: lightcoral; 
+}
+
+.card.working-remotely {
+  background-color: #78f288; 
+}
+
+.card-text {
+  font-size: 25px;
+}
+
+.icon-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px; 
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.attendance-icon {
+  color: black; 
+}
+
+.number {
+  font-size: inherit; 
+  font-weight: bold;
+  color: #960016;
+}
+
+.attendance-overview {
+  margin-bottom: 20px;
+}
+
+.chart {
+  height: 200px;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 200px;
+  color: #999;
+}
+
+.upcoming-holidays ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.upcoming-holidays li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.upcoming-holidays li:last-child {
+  border-bottom: none;
+}

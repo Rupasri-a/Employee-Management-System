@@ -1,0 +1,59 @@
+.home-page-container {
+    height: 100vh;
+    background-image: url('https://st2.depositphotos.com/1757635/8830/i/450/depositphotos_88302772-stock-photo-global-business-strategy.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 51, 0.7);
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navbar-title {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .navbar-buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .navbar-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .background-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 51, 0.7);
+    color: white;
+    font-size: 36px;
+    text-align: center;
+  }
+  
